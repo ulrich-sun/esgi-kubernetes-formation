@@ -1,0 +1,10 @@
+apiVersion: v1
+data:
+  MYSQL_ROOT_PASSWORD: password
+  MYSQL_DATABASE: eazytraining
+  MYSQL_USER: eazy
+  MYSQL_PASSWORD: eazy
+kind: ConfigMap
+metadata:
+  creationTimestamp: null
+  name: mysql-cm
